@@ -1,0 +1,81 @@
+@charset "UTF8";
+@font-face {
+    font-family: android;
+    src: url(fontes/idroid.otf);
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(98, 231, 109, 0.479);
+    text-align: justify;
+}
+
+.titulo {
+    text-align: center;
+    background-color: rgb(79, 184, 79);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.507);
+}
+
+.cabecalho {
+    text-align: left;
+}
+
+a { 
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: blue;
+}
+
+article > h1 {
+    font-family: android;
+}
+
+article > h2 {
+    background-color: rgba(0, 128, 0, 0.397);
+    padding: 10px;
+    font-family: android;
+}
+
+main {
+    margin-right: 150px;
+    margin-left: 150px;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.507);
+}
+
+.list {
+    text-align: justify;
+    background-color: rgb(149, 250, 149);
+    border-radius: 20px;
+    margin: 25px;
+    padding-left: 0%;
+    padding-bottom: 20px;
+}
+
+.list > h3 {
+    color: white;
+    background-color: rgb(31, 211, 31);
+    padding: 25px 20px 20px 2px;
+    border-radius: 20px;
+}
+
+footer {
+    margin: 10px;
+    padding: 1px;
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+}
+
+.final {
+    margin: 20px;
+    padding-bottom: 40px;
+}
+
+.foto {
+    text-align: center;
+}

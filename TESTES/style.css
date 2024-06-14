@@ -1,0 +1,9 @@
+@charset "UTF8";
+
+* {
+    font-family: Verdana;
+}
+.logo {
+    padding-left: 20px;
+    background-color: tomato;
+}

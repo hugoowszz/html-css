@@ -1,0 +1,32 @@
+@charset "UFT8";
+
+/* em HTML = id
+   em CSS = #
+*/
+
+body {
+    background-color: #A570D4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: #563A6E;
+}
+
+.principal {
+    text-align: center;
+    background-color: #3A274A;
+}
+
+h2 {
+    color: #895DB0;
+}
+
+p {
+    text-align: justify;
+    color: rgb(95, 12, 121);
+} 
+
+.destaque {
+    background-color: rgba(255, 255, 0, 0.425);
+}

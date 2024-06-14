@@ -1,0 +1,28 @@
+@charset "UTF8";
+
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+@font-face {
+    font-family: 'Heart';
+    src: url("fonts/HEARRG__.TTF") format('truetype');
+}
+
+h1 {
+    font-family: "Gwendolyn", cursive;
+    font-size: 3em;
+}
+
+.externa {
+    font-family: Heart;
+    font-size: 3em;
+    font-weight: normal;
+}
+
+
+
+
+
+
+
+
+/* font: font-style, font-weight, font-size, font-family */

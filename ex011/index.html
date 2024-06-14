@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispostiivos diferentes, ou simplismente aumente e diminue o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="images/imagem-p.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="images/imagem-m.jpg" type="image/jpg">
+        <img src="images/imagem-g.jpg" alt="fotog">
+    </picture>
+    <h1>Reproduzindo Áudios</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/Sweethearts - TrackTribe.mp3" type="audio/mpeg">
+        <p>Infelizmente seu navegador não consegue tocar audios</p>
+    </audio>
+</body>
+</html>
