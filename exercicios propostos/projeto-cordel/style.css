@@ -1,20 +1,26 @@
 @charset "UTF8";
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&display=swap');
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body{
     margin: 0%;
     font-family: "Playwrite AU QLD", cursive;
-    font-size: 2.2em;
+    font-size: 2.vh;
     font-style: italic;
     background-color: #e9e5b0;
     }
 
-    body a {
+body a {
         text-decoration: none;
         color: white;
+        font-weight: bolder;
     }
 
-    body a:hover {
+body a:hover {
         text-decoration: underline;
         color: lightblue;
     }
@@ -30,16 +36,20 @@ header {
 header h1 {
     font-size: 4em;
     font-weight: bold;
+    font-variant: small-caps;
     }
 
 main p {
-    padding: 20px 0px 20px 20px;
+    padding: 20px 0px 20px 30px;
     letter-spacing: 3px;
     }
 
 div {
     text-align: left;
     font-family: "Playwrite AU QLD", cursive;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
     }
 
 .girassol {
@@ -50,6 +60,11 @@ div {
     background-position: left center;
     }
 
+.girassol > p {
+    background-color: rgba(0, 0, 0, 0.322);
+    width: 320px;
+}
+
 .paginas {
     background-image: url(images/escrita.jpg);
     background-size: cover;
@@ -57,7 +72,13 @@ div {
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.644);
     text-shadow: 2px 0px 2px rgba(0, 0, 0, 0.534);
     }
+
+.paginas > p {
+    width: 320px;
+    background-color: rgba(0, 0, 0, 0.322);
+}
 footer {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         text-align: center;
         background-color: black;
         color: white;
