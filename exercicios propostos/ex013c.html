@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela C</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 300px;
+        }
+
+        caption {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            font-size: 1.5em;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            background-color: gray;
+        }
+
+        .nome {
+            background-color: darkgray;
+        }
+        .filme {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Filmes Favoritos</caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupo</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
+                <td class="nome">Ana Maria Santos</td>
+                <td class="filme">Alien</td>
+                <td class="filme">Rambo</td>
+                <td class="filme">Vingadores</td>
+            <tr>
+                    <td class="nome">Beatriz Souza</td>
+                    <td class="filme">Hulk</td>
+                    <td class="filme">Inception</td>
+                    <td class="filme">Batman</td>
+            </tr>
+            <tr>
+                    <td class="nome">Cláudia Melo</td>
+                    <td class="filme">Oblivion</td>
+                    <td class="filme">Matrix</td>
+                    <td class="filme">Big Hero</td>
+            </tr>
+            </tr>
+            <tr>
+                <th rowspan="4" scope="rowgroup">Homens</th>
+                <tr>
+                    <td class="nome">Breno Mendonça</td>
+                    <td class="filme">Intocáveis</td>
+                    <td class="filme">Amnésia</td>
+                    <td class="filme">Gladiador</td>
+                </tr>
+                <tr>
+                    <td class="nome">Daniel Lourenço</td>
+                    <td class="filme">Wall-E</td>
+                    <td class="filme">Oldboy</td>
+                    <td class="filme">Dangal</td>
+                </tr>
+                <tr>
+                    <td class="nome">Fabiano Mota</td>
+                    <td class="filme">Star Wars 5</td>
+                    <td class="filme">Taxi Driver</td>
+                    <td class="filme">Toy Story</td>
+                </tr>
+            </tr>
+            
+        </thead>
+
+    </table>
+</body>
+</html>
+
+
+
+<table>
+    <thead>
+        <tr>
+            <th>Area</th>
+            <th>Disciplinas</th>
+            <th>Notas</th>
+            <th>Média</th>
+        </tr>
+        <tr>
+            <th rowspan="5">Exatas</th>
+            <tr>
+                <td>Matematica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Fisica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Química</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+        </tr>
+        <tr>
+            <th colspan="3">Média Exatas</th>
+            <td>0.0</td>
+        </tr>
+        <tr>
+            <th rowspan="3">Humanas</th>
+            <tr>
+                <td>Historia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+        </tr>
+        <tr>
+            <th colspan="3">Média de Humanas</th>
+            <td>0.0</td>
+        </tr>
+    </thead>
+</table>
