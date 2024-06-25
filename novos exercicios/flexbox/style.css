@@ -1,0 +1,25 @@
+@charset "UTF8";
+
+body {
+    background-color: #64748b;
+}
+    .container {
+        display: flex;
+        gap: 10px;
+        /*height: 600px;*/
+        /* flex-flow: column wrap; */
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: #4338ca;
+    }
+
+    .item {
+        width: 200px;
+        height: 200px;
+        background-color: #d946ef;
+        border: 1px solid black;
+    }
+
+    .item3{
+        flex-grow: 1;
+    }

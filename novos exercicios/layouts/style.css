@@ -1,0 +1,89 @@
+@charset "UTF8";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    padding: 0px;
+    background-image: url(images/principal.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px 0px;
+    box-shadow: 2px 1px 3px rgba(117, 0, 185, 0.414);
+    height: 100%;
+    padding: 40px 120px 0px 0px;
+}
+.cabecalho {
+    width: 80px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: rgba(128, 128, 128, 0.493);
+    text-shadow: 1px 1px 1px rgba(207, 207, 186, 0.400);
+    background-color: beige;
+}
+
+#register {
+    background-image:linear-gradient(to right, #15803d, #166534, #14532d);
+    box-shadow: 1px 3px 3px rgba(0, 66, 3, 0.671);
+}
+
+#titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 56px;
+    padding: 0px 0px 40px 0px;
+    line-height: 1.2em;
+    letter-spacing: 3px;
+
+}
+
+#subtitulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant: small-caps;
+    line-height: 1.5em;
+    letter-spacing: 3px;
+}
+
+#titulo, #subtitulo {
+    color: white;
+}
+
+.botao {
+    background-image:linear-gradient(to right, red, orange);
+    margin-top: 40px;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 2em;
+    color: beige;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main {
+    margin: 220px 120px;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(128, 128, 128, 0.493);
+}
+
+a:hover {
+    color: green;
+}
