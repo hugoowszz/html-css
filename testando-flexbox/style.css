@@ -1,0 +1,96 @@
+@import 'https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap';
+
+* {
+    font-family:sora;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+}
+
+.container-header {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 20px 40px;
+    
+}
+
+.header {
+    padding: 15px 10px 0px 10px;
+}
+
+.site-original {
+    text-decoration: none;
+    background-color: rgba(255, 0, 0, 0.377);
+    border-radius: 30px;
+    padding: 20px;
+    color: black;
+}
+
+#header-normal:hover {
+    color: rgb(252, 110, 44);
+} 
+
+#buy {
+    background-color: rgb(252, 110, 44);
+    border-radius: 40px;
+    color: white;
+}
+
+#buy:hover {
+    transform: translateY(-2px);
+    transition: transform .2s;
+    
+}
+
+.container-main {
+    padding-top: 100px;
+    margin-left: 70px;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.container-main h1 {
+    font-size: 48px;
+    font-style: bold;
+    margin-bottom: 35px;
+}
+
+.container-main p {
+    font-size: 20px;
+    line-height: 1.6em;
+    margin-bottom: 35px;
+}
+
+#small {
+    color: gray;
+    font-size: 42px;
+}
+
+container-input1 {
+    display: flex;
+    margin-bottom: 35px;
+}
+
+.input1 {
+    border-radius: 20px;
+    width: 200px;
+    padding: 15px;
+}
+
+.button-input1 {
+    border-radius: 20px;
+    padding: 15px;
+    background-color: rgb(252, 110, 44);
+    color: white;
+}
+
+
+.page-footer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+}
